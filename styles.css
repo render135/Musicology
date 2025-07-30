@@ -1,0 +1,92 @@
+/* boton fd6309
+fondo fe6306 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #2d2c2c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo{
+    width: 7%;
+}
+
+.search{
+    width: 2%;
+}
+
+.section1{
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    
+}
+
+.arriba{
+    width: 40%;
+    padding-left: 7%;
+    padding-top: 30%;
+}
+
+h1{
+    font-size: 150px;
+    color: white;
+}
+
+.p1{
+    font-size: 50px;
+    text-align: justify;
+    color: lightgray;
+}
+
+.b1{
+    font-size: 40px;
+    color: aliceblue;
+    background-color: #fd6309;
+    padding: 20px 50px 20px 50px;
+    margin-top: 20px;
+}
+
+.section2{
+    background-color: #fe6306;
+    text-align: center;
+}
+
+h2{
+    font-size: 70px;
+    color: aliceblue;
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+
+.p2{
+    font-size: 50px;
+    color: lightgray;
+    width: 60%;
+    margin: 0px 20% 0px 20%;
+    padding-bottom: 40px;
+}
+
+.contenedor{
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #2d2c2c;
+    width: 19%;
+    border-radius: 10px;
+    overflow: hidden;
+}
